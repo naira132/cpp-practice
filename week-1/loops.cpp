@@ -4,10 +4,12 @@
 using namespace std;
 
 int main(){
-    int count = 10;
-    while (count <=1){
-        cout << count << endl;
-        --count;
-    }
-    return 0;
+string name;
+
+cin >> name;
+
+for(size_t i = 0; i < name.length(); i++){
+    cout << i << ": " << name[i] << endl;
+}
+return 0;
 }
