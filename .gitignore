@@ -1,0 +1,10 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore all compiled C++ binaries without an extension
+*
+!*/
+!*.cpp
+!*.h
+!Makefile
+!.gitignore
