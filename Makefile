@@ -1,11 +1,3 @@
-# Target to compile loops
-build-loops:
-	g++ week-1/loops.cpp -o week-1/loops
-
-# Target to run loops
-run-loops: build-loops
-	./week-1/loops
-
 # Compiler and Flags
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
