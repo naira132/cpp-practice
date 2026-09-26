@@ -10,3 +10,7 @@ run-loops:
 # Target to clean up all compiled binaries safely
 clean:
 	rm -f week-1/loops
+
+run-math:
+	$(CXX) $(CXXFLAGS) week-1/math.cpp -o week-1/math
+	./week-1/math
