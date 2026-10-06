@@ -111,27 +111,83 @@ int main(){
 // }
 //REMOVE GRAY FROM RBG
 
-int red;
-int green;
-int blue;
-bool no_gray;
+// int red;
+// int green;
+// int blue;
+// bool no_gray;
 
-cin >> red >> green >> blue;
+// cin >> red >> green >> blue;
 
-if (red < 50 || green < 50 || blue < 50 ){
-    no_gray = true;
-}
-if(red >= 50) {
-	red = red - 50;
-}
-if(green >= 50) {
-	green = green - 50;
-}
-if(blue >= 50) {
-	blue = blue - 50;
-}
+// if (red < 50 || green < 50 || blue < 50 ){
+//     no_gray = true;
+// }
+// if(red >= 50) {
+// 	red = red - 50;
+// }
+// if(green >= 50) {
+// 	green = green - 50;
+// }
+// if(blue >= 50) {
+// 	blue = blue - 50;
+// }
 
-cout << red << " " << green << " " << blue << endl;
+// cout << red << " " << green << " " << blue << endl;
+
+//SMALLEST NUM
+
+// int num_1;
+// int num_2;
+// int num_3;
+
+// cin >> num_1 >> num_2 >> num_3;
+
+// if (num_1 < num_2 && num_1 < num_3){
+//     cout << num_1 << endl;
+// }
+// else if (num_2 < num_1 && num_2 < num_3){
+//     cout << num_2 << endl;
+// }
+// else{
+//     cout << num_3 << endl;
+// }
+
+//INTERSTATE HIGHWAY NUMBERS
+
+// int highway_num;
+
+// cin >> highway_num;
+
+// if(highway_num == 0 || highway_num >999 || highway_num == 200){
+//     cout << highway_num << " is not a valid interstate highway number." << endl;
+// }
+
+// else if(highway_num >= 1 && highway_num <= 99) {
+// if(highway_num % 2== 0){
+//     cout << "I-" << highway_num << " is primary, going east/west." << endl;
+// }
+// else{
+//     cout << "I-" << highway_num << " is primary, going north/south." << endl;
+// }
+    
+// }
+
+// else if (highway_num>= 100 && highway_num <= 999){
+//     cout << "I-" << highway_num << " is auxiliary, serving I-" << highway_num % 100 << "." << endl;
+// }
+
+//EXACT CHANGE
+
+int change;
+
+cin >> change;
+
+if(change <= 0){
+    cout << "You did not enter a valid amount." << endl;
+}
+else if (change % 100 == 0){
+
+}
+//LEAP YEAR
 
 return 0;
 }
