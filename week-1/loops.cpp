@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <cmath>
+#include <cstdlib>
 using namespace std;
 
 int main(){
@@ -107,5 +109,29 @@ int main(){
 // }
 // cout << endl;
 // }
+//REMOVE GRAY FROM RBG
+
+int red;
+int green;
+int blue;
+bool no_gray;
+
+cin >> red >> green >> blue;
+
+if (red < 50 || green < 50 || blue < 50 ){
+    no_gray = true;
+}
+if(red >= 50) {
+	red = red - 50;
+}
+if(green >= 50) {
+	green = green - 50;
+}
+if(blue >= 50) {
+	blue = blue - 50;
+}
+
+cout << red << " " << green << " " << blue << endl;
+
 return 0;
 }
