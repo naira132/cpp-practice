@@ -14,3 +14,7 @@ clean:
 run-math:
 	$(CXX) $(CXXFLAGS) week-1/math.cpp -o week-1/math
 	./week-1/math
+
+run-for_loops:
+	$(CXX) $(CXXFLAGS) week-1/for_loops.cpp -o week-1/for_loops
+	./week-1/for_loops
