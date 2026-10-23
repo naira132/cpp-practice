@@ -18,3 +18,11 @@ run-math:
 run-for_loops:
 	$(CXX) $(CXXFLAGS) week-1/for_loops.cpp -o week-1/for_loops
 	./week-1/for_loops
+
+run-functions:
+	$(CXX) $(CXXFLAGS) week-1/functions.cpp -o week-1/functions
+	./week-1/functions
+
+run-array:
+	$(CXX) $(CXXFLAGS) week-1/array.cpp -o week-1/array
+	./week-1/array
