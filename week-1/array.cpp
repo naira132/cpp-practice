@@ -169,9 +169,29 @@ using namespace std;
 // }
 
 // void fillVector(vector<int> &v){
-
+//     int num;
+//     for (int i = 0; i < 5; i++){
+//     cin >> num;
+//     v.push_back(num);
+//     }
 // }
 
 // unsigned searchVector(vector<int> v, int target){
+// for (int i = 0; i < v.size(); i++){
+//     if (v[i] == target){
+//         v.pop_back();
+//     }
+// }
+// }
+// int main (){
 
+//     int target;
+
+//     vector<int> myVec;
+
+//     fillVector(myVec);
+
+//     cin >> target;
+
+//     return 0;
 // }
