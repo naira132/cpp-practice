@@ -26,3 +26,7 @@ run-functions:
 run-array:
 	$(CXX) $(CXXFLAGS) week-1/array.cpp -o week-1/array
 	./week-1/array
+
+run-array:
+	$(CXX) $(CXXFLAGS) week-2/class.cpp -o week-2/class
+	./week-2/class
